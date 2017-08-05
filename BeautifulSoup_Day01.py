@@ -52,5 +52,3 @@ print(r.headers)
 if r.status_code == requests.codes.ok:
     for k, v in r.json().items():
         print(k, v)
-
-something = 'everything'
